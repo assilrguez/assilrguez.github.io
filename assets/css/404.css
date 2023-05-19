@@ -1,0 +1,50 @@
+body{
+    min-height: 100vh;
+    size: 100%;
+    text-align: center;
+    width: 100%;
+    background: url(../images/404/404_1280x720.jpg) no-repeat;
+    background-size: cover;
+}
+.main{
+    min-height: 89.6vh;
+    padding-top: 10rem;
+}
+.ops{
+    color: #ccc;
+    font-size: 8rem;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font: bold;
+}
+.container2{
+    text-align: center ;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.protocol{
+    color: #ccc;
+    font-size: 10rem;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.protocol span{
+    color: #009CE4;
+}
+.button404{
+    color: #000;
+    background-color: #009CE4;
+    text-decoration: none;
+    font-size: 1.6em;
+    font-weight: 700;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin: 30px 40px;
+    width: 180px;
+    height: 50px;
+    transition: 0.7s ease;
+}
+.button404:hover{
+    background-color: #0a49f6;
+    transform: scale(1.1);
+}
