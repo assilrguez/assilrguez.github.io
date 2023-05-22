@@ -627,13 +627,14 @@ section {
 .field{
 	width: 100%;
 	border: 2px solid rgba(0, 0, 0, 0);
-  border-radius: 5px;
-  outline: none;
+  	border-radius: 5px;
+  	outline: none;
 	background-color: rgba(230, 230, 230, 0.6);
 	padding: 0.5rem 1rem;
 	font-size: 1.1rem;
 	margin-bottom: 22px;
 	transition: .3s;
+	text-transform: none;
 }
 .field:hover{
 	background-color: rgba(0, 0, 0, 0.1);
