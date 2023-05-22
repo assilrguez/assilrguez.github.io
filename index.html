@@ -102,17 +102,16 @@
       </div>
       </section>
     <!-- contact -->
-    <!-- NOTICE : it not working ,it's just a design -->
     <section class="contact" id="contact">
         <div class="contact-box">
           <div class="left"><p class="h5p">+21692715872</p><p class="h5p">assil.rguez1@gmail.com</p><p class="h6p">Zriba hammam,Zaghouan,Tunisia</p></div>
-          <div class="right">
+          <form class="right" action="https://formspree.io/f/mlekkdjy" method="POST">
             <h2 class="h2c">Contact Me</h2>
-            <input type="text" id="name-input" class="field" placeholder="Your Name" pattern="[a-zA-Z ]+">
-            <input type="email" id="email-input" class="field" placeholder="Your Email">
-            <textarea id="message-input" placeholder="Message" class="field" style="resize: none;"></textarea>
-            <button class="btn1" onclick="reset()">Send</button>
-          </div>
+            <input type="text" name="name" id="name-input" class="field" placeholder="Your Name" pattern="[a-zA-Z ]+">
+            <input type="email" name="email" id="email-input" class="field" placeholder="Your Email">
+            <textarea name="message" id="message-input" placeholder="Message" class="field" style="resize: none;"></textarea>
+            <button class="btn1" type="submit">Send</button>
+          </form>
         </div>
     </section>
     <!-- footer -->
@@ -136,8 +135,9 @@
         <p class="paragraph">created with <strong style="color:red;">♥</strong> by <a href="http://www.github.com/assilrguez" >Assil Rguez</a> .</p>
       </div>
     </footer>
+    
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/navbar.js"></script>
+    <script src="assets/js/age.js"></script>
   </body>
-  <script src="assets/js/script.js"></script>
-  <script src="assets/js/navbar.js"></script>
-  <script src="assets/js/age.js"></script>
 </html>
