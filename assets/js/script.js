@@ -42,8 +42,3 @@ window.onscroll = function() {
     }
 };      
 const button = document.getElementById("send");
-function reset(){
-  document.getElementById("name-input").value = "";
-  document.getElementById("email-input").value = "";
-  document.getElementById("message-input").value = "";
-}
